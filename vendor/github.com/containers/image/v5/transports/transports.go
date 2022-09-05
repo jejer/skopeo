@@ -8,7 +8,7 @@ import (
 	"github.com/containers/image/v5/types"
 )
 
-// knownTransports is a registry of known ImageTransport instances.
+// knownTransports is a registry of known ImageTransport instances
 type knownTransports struct {
 	transports map[string]types.ImageTransport
 	mu         sync.Mutex
